@@ -31,8 +31,8 @@ main {
 
 .image-container {
     position: relative;
-    width: 100vw; /* Largura da tela */
-    height: 150vh; /* Altura da tela */
+    width: 80vw; /* Largura da tela */
+    height: 80vh; /* Altura da tela */
     overflow: hidden; /* Garante que a imagem não saia do contêiner */
     display: flex;
     justify-content: center;
