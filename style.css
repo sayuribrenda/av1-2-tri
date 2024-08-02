@@ -4,13 +4,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: #2f3cee;
-    color: #2561bb;
+    color: #1561d4;
 }
 
 /* Estilo do cabeçalho */
 header {
-    background-color: #004d40;
-    color: rgb(60, 169, 241);
+    background-color: #cbdfdb;
+    color: rgb(203, 215, 223);
     text-align: center;
     padding: 20px;
 }
