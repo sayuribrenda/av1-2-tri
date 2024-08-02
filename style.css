@@ -3,14 +3,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e0f7fa;
-    color: #00796b;
+    background-color: #2f3cee;
+    color: #2561bb;
 }
 
 /* Estilo do cabeçalho */
 header {
     background-color: #004d40;
-    color: white;
+    color: rgb(60, 169, 241);
     text-align: center;
     padding: 20px;
 }
