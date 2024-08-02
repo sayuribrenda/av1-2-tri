@@ -8,6 +8,5 @@ document.getElementById('moveButton').addEventListener('click', function() {
     } else {
         image.style.transform = 'translateX(-475px)'; // Move a imagem de volta para a posição original
     }
-      image.style.transform = 'none'; // Move a imagem de volta para a posição original
-    }
+      
 });
