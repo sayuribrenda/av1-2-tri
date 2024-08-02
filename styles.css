@@ -30,12 +30,19 @@ main {
 .image-container {
     margin-bottom: 20px;
     position: relative;
+    display: inline-block;
 }
 
 #fishImage {
     width: 100%;
     max-width: 400px; /* Limita a largura máxima da imagem */
     transition: transform 0.5s ease; /* Suaviza o movimento da imagem */
+    display: block; /* Remove o espaço abaixo da imagem */
+    margin: 0 auto; /* Centraliza a imagem inicialmente */
+}
+
+.button-container {
+    margin-top: 20px;
 }
 
 button {
@@ -46,6 +53,7 @@ button {
     font-size: 1em;
     cursor: pointer;
     border-radius: 5px;
+    margin: 0 5px;
 }
 
 button:hover {
