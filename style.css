@@ -24,7 +24,6 @@ h1 {
 main {
     padding: 20px;
     text-align: center;
-    position: relative; /* Adicionado para garantir que o movimento do peixe funcione corretamente */
 }
 
 .hero h2 {
@@ -32,25 +31,18 @@ main {
     margin-bottom: 20px;
 }
 
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
 .fish-image {
     width: 300px;
     height: auto;
     border-radius: 15px;
-    transition: transform 0.3s ease; /* Adiciona uma transição suave para o movimento */
+    transition: transform 0.3s ease; /* Transição suave para o movimento */
 }
 
-/* Estilo do rodapé */
-footer {
-    background-color: #004d40;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-/* Estilo para o botão */
 .move-button {
     background-color: #00796b;
     color: white;
@@ -64,4 +56,15 @@ footer {
 
 .move-button:hover {
     background-color: #004d40;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
