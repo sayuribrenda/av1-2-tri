@@ -11,10 +11,11 @@ header {
     background-color: #00bcd4; /* Azul claro */
     color: white;
     padding: 10px;
+    margin: 10px;
 }
 
 header h1 {
-    margin: 10;
+    margin: 0;
     font-size: 2em;
 }
 
