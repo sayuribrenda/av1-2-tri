@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #e0f7fa; /* Cor de fundo suave */
+}
+
+header {
+    background-color: #00bcd4; /* Azul claro */
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header h2 {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+main {
+    padding: 20px;
+}
+
+.image-container {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#fishImage {
+    width: 100%;
+    max-width: 400px; /* Limita a largura máxima da imagem */
+    transition: transform 0.5s ease; /* Suaviza o movimento da imagem */
+}
+
+button {
+    background-color: #00bcd4; /* Azul claro */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0097a7; /* Azul mais escuro no hover */
+}
