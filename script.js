@@ -9,7 +9,7 @@ document.getElementById('moveButton').addEventListener('click', function() {
         image.style.transform = `translateX(${viewportWidth - imageWidth}px)`; // Move a imagem para a direita
         state = 1;
     } else if (state === 1) {
-        image.style.transform = `translateX(-${viewportWidth - imageWidth}px)`; // Move a imagem para a esquerda
+        image.style.transform = `translateX(${-(viewportWidth - imageWidth)}px)`; // Move a imagem para a esquerda
         state = 2;
     } else if (state === 2) {
         image.style.transform = 'translateX(0)'; // Move a imagem de volta para o centro
