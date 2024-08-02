@@ -4,7 +4,7 @@ document.getElementById('moveButton').addEventListener('click', function() {
 
     // Verifica se a imagem já foi movida
     if (currentTransform === 'none' || currentTransform === 'matrix(1, 0, 0, 1, 100, 0)') {
-        image.style.transform = 'translateX(500px)'; // Move a imagem para a direita
+        image.style.transform = 'translateX(250px)'; // Move a imagem para a direita
     } else {
         image.style.transform = 'none'; // Move a imagem de volta para a posição original
     }
