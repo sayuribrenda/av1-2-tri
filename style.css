@@ -1,8 +1,67 @@
-</style>
-</head>
-<body>
-    <h1>Mergulhe no Sucesso: A Vitória Está ao Seu Alcance</h1>
-    <h2>Quando seus braços não aguentarem mais, nade com o coração</h2>
-    <img id="peixe" src="https://example.com/peixe.png" alt="Peixe" width="100">
-    <br>
-    <button onclick="movePeixe()">Nadar</button>
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    color: #00796b;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Estilo da seção principal */
+main {
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Adicionado para garantir que o movimento do peixe funcione corretamente */
+}
+
+.hero h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.fish-image {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave para o movimento */
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo para o botão */
+.move-button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.move-button:hover {
+    background-color: #004d40;
+}

@@ -1,37 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mergulhe no Sucesso: A Vitória Está ao Seu Alcance</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #e0f7fa;
-            text-align: center;
-            padding: 20px;
-            margin: 0;
-        }
-        h1 {
-            color: #00796b;
-        }
-        h2 {
-            color: #004d40;
-        }
-        img {
-            position: relative;
-            transition: transform 0.5s;
-        }
-        button {
-            margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 16px;
-            color: #fff;
+        /* Estilo para o botão */
+        .move-button {
             background-color: #00796b;
+            color: white;
             border: none;
-            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 1em;
             cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
         }
-        button:hover {
+
+        .move-button:hover {
             background-color: #004d40;
         }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mergulhe no Sucesso: A Vitória Está ao Seu Alcance</h1>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Quando seus braços não aguentarem mais, nade com o coração</h2>
+            <img src="peixe.jpg" alt="Imagem de um peixe" class="fish-image" id="fish">
+            <button class="move-button" onclick="moveFish()">Mover o Peixe</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mergulhe no Sucesso. Todos os direitos reservados.</p>
+    </footer>
+    <script>
+        let position = 0; // Posição inicial do peixe
+
+        function moveFish() {
+            const fish = document.getElementById('fish');
+            position += 50; // Move o peixe 50 pixels para frente
+            fish.style.transform = `translateX(${position}px)`;
+        }
+    </script>
+</body>
+</html>
