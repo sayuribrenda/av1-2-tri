@@ -28,19 +28,18 @@ main {
 }
 
 .image-container {
-    margin: 20px auto; /* Margem automática para centralizar o contêiner */
+    margin: 20px auto;
     position: relative;
     width: 100%;
-    max-width: 400px; /* Limita a largura máxima do contêiner da imagem */
+    max-width: 600px; /* Largura máxima do contêiner */
     overflow: hidden; /* Garante que a imagem não saia do contêiner */
 }
 
 #fishImage {
+    display: block;
     width: 100%;
-    max-width: 100%; /* Ajusta a imagem para não exceder a largura do contêiner */
-    display: block; /* Remove o espaço abaixo da imagem */
-    margin: 0 auto; /* Centraliza a imagem dentro do contêiner */
-    transition: transform 0.5s ease; /* Suaviza o movimento da imagem */
+    max-width: 100%;
+    transition: transform 1s ease; /* Suaviza o movimento da imagem */
 }
 
 button {
