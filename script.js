@@ -3,11 +3,9 @@ document.getElementById('moveButton').addEventListener('click', function() {
     let currentTransform = window.getComputedStyle(image).transform;
 
     // Verifica se a imagem já foi movida
-    if (currentTransform === 'none' || currentTransform === 'matrix(1, 0, 0, 1, 100, 0)') {
+    if (currentTransform === 'none' || currentTransform === 'matrix(1, 0, 0, 1, 1000, 0)') {
         image.style.transform = 'translateX(475px)'; // Move a imagem para a direita
-    } else {
-        image.style.transform = 'translateX(1px)'; // Move a imagem de volta para a posição original
-    }
+    } else 
     {
         image.style.transform = 'translateX(-475px)'; // Move a imagem de volta para a posição original
     }
