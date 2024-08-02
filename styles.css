@@ -28,17 +28,19 @@ main {
 }
 
 .image-container {
-    margin-bottom: 20px;
+    margin: 20px auto; /* Margem automática para centralizar o contêiner */
     position: relative;
-    display: inline-block;
+    width: 100%;
+    max-width: 400px; /* Limita a largura máxima do contêiner da imagem */
+    overflow: hidden; /* Garante que a imagem não saia do contêiner */
 }
 
 #fishImage {
     width: 100%;
-    max-width: 400px; /* Limita a largura máxima da imagem */
-    transition: transform 0.5s ease; /* Suaviza o movimento da imagem */
+    max-width: 100%; /* Ajusta a imagem para não exceder a largura do contêiner */
     display: block; /* Remove o espaço abaixo da imagem */
-    margin: 0 auto; /* Centraliza a imagem inicialmente */
+    margin: 0 auto; /* Centraliza a imagem dentro do contêiner */
+    transition: transform 0.5s ease; /* Suaviza o movimento da imagem */
 }
 
 button {
@@ -49,6 +51,7 @@ button {
     font-size: 1em;
     cursor: pointer;
     border-radius: 5px;
+    margin-top: 20px;
 }
 
 button:hover {
