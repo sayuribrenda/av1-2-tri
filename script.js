@@ -1,14 +1,14 @@
-document.getElementById('moveButton').addEventListener('click', function() {
+document.getElementById('moveLeft').addEventListener('click', function() {
     const image = document.getElementById('fishImage');
-    let currentTransform = window.getComputedStyle(image).transform;
+    image.style.transform = 'translateX(-100px)'; // Move a imagem para a esquerda
+});
 
-    // Verifica se a imagem já foi movida
-    if (currentTransform === 'none' || currentTransform === 'matrix(1, 0, 0, 1, 1000, 0)') {
-        image.style.transform = 'translateX(475px)'; // Move a imagem para a direita
-    } else 
-    {
-        image.style.transform = 'translateX(-475px)'; // Move a imagem de volta para a posição original
-    }
-    
-      
+document.getElementById('moveRight').addEventListener('click', function() {
+    const image = document.getElementById('fishImage');
+    image.style.transform = 'translateX(100px)'; // Move a imagem para a direita
+});
+
+document.getElementById('moveCenter').addEventListener('click', function() {
+    const image = document.getElementById('fishImage');
+    image.style.transform = 'none'; // Move a imagem de volta para o centro
 });
