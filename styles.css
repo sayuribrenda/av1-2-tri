@@ -25,8 +25,8 @@ header h2 {
 }
 
 main {
-    position: relative;
     padding: 20px;
+    position: relative; /* Para garantir que o botão fique no topo da imagem */
 }
 
 .image-container {
@@ -34,14 +34,15 @@ main {
     width: 100vw; /* Largura da tela */
     height: 100vh; /* Altura da tela */
     overflow: hidden; /* Garante que a imagem não saia do contêiner */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #fishImage {
     position: absolute;
     width: auto;
-    height: 100%; /* Altura da imagem igual à altura da tela */
-    left: 0;
-    top: 0;
+    height: 80%; /* Ajusta a altura para que a imagem caiba na tela */
     transition: transform 1s ease; /* Suaviza o movimento da imagem */
 }
 
@@ -54,7 +55,7 @@ button {
     cursor: pointer;
     border-radius: 5px;
     margin-top: 20px;
-    position: relative;
+    position: relative; /* Para posicionar o botão sobre a imagem */
     z-index: 1; /* Garante que o botão esteja acima da imagem */
 }
 
