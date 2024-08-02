@@ -1,65 +1,7 @@
-/* Estilos básicos para a página */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #e0f7fa; /* Cor de fundo azul claro */
-    text-align: center;
-}
-
-/* Estilizando o header */
-header {
-    background-color: #006064; /* Cor de fundo azul escuro */
-    color: #ffffff;
-    padding: 20px;
-}
-
-h1 {
-    margin: 0;
-    font-size: 2em;
-}
-
-h2 {
-    margin: 10px 0 20px;
-    font-size: 1.5em;
-}
-
-/* Estilizando o container do peixe */
-.fish-container {
-    position: relative;
-    display: inline-block;
-    margin-top: 20px;
-}
-
-/* Estilizando o peixe */
-.fish {
-    position: absolute;
-    width: 100px; /* Ajuste conforme necessário */
-    transition: transform 0.3s ease-in-out;
-}
-
-/* Estilizando o botão */
-button {
-    padding: 10px 20px;
-    font-size: 1em;
-    background-color: #004d40; /* Cor de fundo verde escuro */
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
-}
-
-button:hover {
-    background-color: #00332c; /* Cor de fundo um pouco mais escura para hover */
-}
-
-/* Estilizando o footer */
-footer {
-    background-color: #004d40; /* Cor de fundo verde escuro */
-    color: #ffffff;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+</head>
+<body>
+    <h1>Mergulhe no Sucesso: A Vitória Está ao Seu Alcance</h1>
+    <h2>Quando seus braços não aguentarem mais, nade com o coração</h2>
+    <img id="peixe" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgartic.com.br%2Fmandy_freita%2Fdesenho-livre%2Fcontinue-a-nadar&psig=AOvVaw2ji7Ot0Bsd-VqrHFwpzx5h&ust=1722645530242000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLj69eiI1YcDFQAAAAAdAAAAABAJ" alt="Peixe" width="100">
+    <br>
+    <button onclick="movePeixe()">Nadar</button>

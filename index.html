@@ -4,22 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mergulhe no Sucesso: A Vitória Está ao Seu Alcance</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Mergulhe no Sucesso: A Vitória Está ao Seu Alcance</h1>
-        <h2>Quando seus braços não aguentarem mais, nade com o coração</h2>
-    </header>
-    <main>
-        <div class="fish-container">
-            <img src="peixe.png" alt="Imagem de um peixe" id="fish" class="fish">
-        </div>
-        <button id="moveFish">Mover o Peixe</button>
-    </main>
-    <footer>
-        
-    </footer>
-    <script src="script.js"></script>
-</body>
-</html>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+        h1 {
+            color: #00796b;
+        }
+        h2 {
+            color: #004d40;
+        }
+        img {
+            position: relative;
+            transition: transform 0.5s;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #00796b;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #004d40;
+        }
