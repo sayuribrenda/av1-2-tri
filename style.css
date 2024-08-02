@@ -1,3 +1,4 @@
+/* Estilos básicos para a página */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -23,11 +24,34 @@ h2 {
     font-size: 1.5em;
 }
 
-/* Estilizando a imagem */
-.swim-image {
-    max-width: 100%;
-    height: auto;
+/* Estilizando o container do peixe */
+.fish-container {
+    position: relative;
+    display: inline-block;
     margin-top: 20px;
+}
+
+/* Estilizando o peixe */
+.fish {
+    position: absolute;
+    width: 100px; /* Ajuste conforme necessário */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Estilizando o botão */
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #004d40; /* Cor de fundo verde escuro */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #00332c; /* Cor de fundo um pouco mais escura para hover */
 }
 
 /* Estilizando o footer */
