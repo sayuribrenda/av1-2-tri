@@ -3,15 +3,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #2f3cee;
-    color: #1561d4;
+    background-color: #e0f7fa;
+    color: #00796b;
+    text-align: center; /* Adiciona centralização do texto para o layout */
 }
 
 /* Estilo do cabeçalho */
 header {
-    background-color: #cbdfdb;
-    color: rgb(203, 215, 223);
-    text-align: center;
+    background-color: #004d40;
+    color: white;
     padding: 20px;
 }
 
@@ -23,7 +23,6 @@ h1 {
 /* Estilo da seção principal */
 main {
     padding: 20px;
-    text-align: center;
 }
 
 .hero h2 {
@@ -32,8 +31,7 @@ main {
 }
 
 .image-container {
-    position: relative;
-    display: inline-block;
+    display: inline-block; /* Garante que a imagem e o botão estejam centralizados */
 }
 
 .fish-image {
@@ -45,7 +43,7 @@ main {
 
 .move-button {
     background-color: #00796b;
-    color: rgb(45, 16, 175);
+    color: white;
     border: none;
     padding: 10px 20px;
     font-size: 1em;
@@ -62,7 +60,6 @@ main {
 footer {
     background-color: #004d40;
     color: white;
-    text-align: center;
     padding: 10px;
     position: fixed;
     bottom: 0;
