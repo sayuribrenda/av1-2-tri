@@ -41,7 +41,7 @@ main {
 
 #fishImage {
     position: absolute;
-    width: 80%; /* Ajuste o tamanho da imagem conforme necessário */
+    width: 30%; /* Ajuste o tamanho da imagem conforme necessário */
     height: auto;
     transition: transform 1s ease; /* Suaviza o movimento da imagem */
 }
