@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 50;
+    margin: 0;
     padding: 0;
     text-align: center;
     background-color: #e0f7fa; /* Cor de fundo suave */
@@ -54,7 +54,7 @@ button {
     font-size: 1em;
     cursor: pointer;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 5px;
     position: relative; /* Para posicionar o botão sobre a imagem */
     z-index: 1; /* Garante que o botão esteja acima da imagem */
 }
