@@ -9,7 +9,7 @@ document.getElementById('moveButton').addEventListener('click', function() {
         image.style.transform = 'translateX(-100px)'; // Move a imagem para a esquerda
         state = 2;
     } else if (state === 2) {
-        image.style.transform = 'none'; // Move a imagem de volta para o centro
+        image.style.transform = 'translateX(0)'; // Move a imagem de volta para o centro
         state = 0;
     }
 });
