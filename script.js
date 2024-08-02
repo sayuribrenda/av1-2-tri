@@ -6,6 +6,6 @@ document.getElementById('moveButton').addEventListener('click', function() {
     if (currentTransform === 'none' || currentTransform === 'matrix(1, 0, 0, 1, 100, 0)') {
         image.style.transform = 'translateX(475px)'; // Move a imagem para a direita
     } else {
-        image.style.transform = 'translateX(475px)'; // Move a imagem de volta para a posição original
+        image.style.transform = 'translateX(-475px)'; // Move a imagem de volta para a posição original
     }
 });
