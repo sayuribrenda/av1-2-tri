@@ -42,7 +42,7 @@ main {
 #fishImage {
     position: absolute;
     width: auto;
-    height: 50%; /* Ajusta a altura para que a imagem caiba na tela */
+    height: 80%; /* Ajusta a altura para que a imagem caiba na tela */
     transition: transform 1s ease; /* Suaviza o movimento da imagem */
 }
 
