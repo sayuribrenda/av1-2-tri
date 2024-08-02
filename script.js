@@ -9,6 +9,6 @@ document.getElementById('moveButton').addEventListener('click', function() {
         image.style.transform = 'translateX(-475px)'; // Move a imagem de volta para a posição original
     }
     {
-        image.style.transform = 'translateX(0px)'; // Move a imagem de volta para a posição original
-    
-});
+        image.style.transform = 'center'; // Move a imagem de volta para a posição original
+    }
+);
